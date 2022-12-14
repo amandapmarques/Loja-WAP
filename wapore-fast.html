@@ -1,0 +1,431 @@
+<style>
+    .desc-html *{
+        font-size:1.3rem;
+        padding:0;
+        color: #333;
+        line-height:2rem;
+    }
+    .desc-html .row strong {
+        color: #4472c4;
+        font-size: 2.2rem;
+    }
+    .desc-html .row{
+        background: #f2f2f2;
+        margin-bottom: 20px;
+    }
+    .desc-html img{
+        max-width:100%;
+    }
+    .desc-html .row-1{
+        background:#fff;
+    }
+    .desc-html .row-1 .bloco1{
+        background:url(/arquivos/pixel-262626.png) no-repeat;
+        background-size: 71% 73%;
+    }
+    .desc-html .row-1 .bloco1 img{
+        margin:auto;
+        padding: 10%;
+    }
+    .desc-html .row-1 .bloco2{
+        background:#fff;
+        padding:5%;
+        margin:auto 0;
+        color:#262626;
+        text-align:center;
+    }
+    .desc-html .row-1 .bloco2_1 span{
+        font-size: 1.8rem;
+        color: #333;
+    }
+    .desc-html .row-2{
+        background: #262626;
+    }
+    .desc-html .row-2 .bloco1_1{
+        padding:8%;
+        padding-bottom:3%;
+        margin:auto;
+    }
+    .desc-html .row-2 .bloco1_1 strong{
+        color:#4472c4;
+    }
+    .desc-html .row-2 .row{
+        background:#262626;
+        margin:auto;
+        padding: 3%7%;
+        padding-bottom:4%;
+    }
+    .desc-html .row-2 .row .bloco1{
+        text-align:center;
+        margin:auto;
+        padding-top:5%;
+    }
+    .desc-html .row-2 .row .bloco2 strong{
+        color:#fff;
+        font-size:1.3rem;
+    }
+    .desc-html .row-2 .row .bloco2{
+        background:#262626;
+        padding:2%;
+        padding-left:5%;
+        margin:auto;
+        color: #fff;
+        font-size:1.2rem;
+    }
+    .desc-html .row-2 .bloco2{
+        background:#262626;
+        margin:auto;
+    }
+    .desc-html .row-3{
+        background:#fff;
+    }
+    .desc-html .row-3 .bloco1{
+        margin:auto;
+        padding:4% 2%;
+        text-align:center;
+    }
+    .desc-html .row-3 .bloco1_1{
+        background:#f2f2f2;
+        padding:3%;
+        margin:auto;
+        font-size:1.0rem;
+    }
+    .desc-html .row-3 .bloco1_2{
+        background:#f2f2f2;
+        padding:3%;
+        margin:auto;
+        font-size:1.0rem;
+    }
+    .desc-html .row-3 .bloco1_3{
+        background:#f2f2f2;
+        padding:3%;
+        margin:auto;
+        font-size:1.0rem;
+    }
+    .desc-html .row-3 .bloco1 strong{
+        color:#262626;
+        font-size:1.2rem;
+    }
+    .desc-html .row-3 .bloco2{
+        margin: auto;
+        padding-top:2%;
+    }
+    .desc-html .row-4{
+        background: url(/arquivos/pixel-f2f2f2.png)no-repeat #262626;
+        background-size: 1px 100%;
+        background-position-x: 1167px;
+    }
+    .desc-html .row-4 .bloco1{
+        padding-top:7%;
+        padding-bottom:2%;
+        padding-left:5%;
+        text-align:center;
+        margin:auto;
+    }
+    .desc-html .row-4 .bloco1 img{
+        max-height:470px;
+    }
+    .desc-html .row-4 .bloco2{
+        padding:7%;
+        margin:auto;
+    }
+    .desc-html .row-4 .bloco2 span{
+        color:#fff;
+    }
+    .desc-html .row-4 .bloco2 span strong{
+        color:#fff;
+        font-size:1.3rem;
+    }
+    .desc-html .row-4 .bloco3{
+        background:#f2f2f2;
+        padding:3%;
+        text-align:center;
+    }
+    .desc-html .row-4 .bloco3 .row{
+        margin:auto;
+    }
+    .desc-html .row-4 .bloco3_1{
+        margin:auto;
+        padding:2% 0;
+    }
+    .desc-html .row-4 .bloco3_1 img{
+        max-width:90%;
+    }
+    .desc-html .row-5 .bloco1{
+        background: url(/arquivos/desc-vaporizador-wapore-fast-portatil-12.png) no-repeat;
+        background-size: auto 100%;
+        min-height: 500px;
+        position: relative;
+    }
+    .desc-html .row-5 .bloco1 strong {
+        color: #fff;
+        font-size:1.8rem;
+        position: absolute;
+        margin: 27% 10%;
+        bottom: 0;
+        vertical-align: bottom;
+    }
+    .desc-html .row-5 .row{
+        margin:auto;
+        padding: 3%7%;
+    }
+    .desc-html .row-5 .bloco2{
+        padding:2%;
+        margin:auto;
+    }
+    .desc-html .row-5 .row .bloco2_1{
+        text-align:center;
+        margin:auto;
+        padding-bottom:2%;
+    }
+    .desc-html .row-5 .row .bloco2_2{
+        padding-bottom:5%;
+        margin:auto;
+        font-size:1.2rem;
+        color:#4472c4;
+    }
+    .desc-html .row-5 .row .bloco2_2 strong{
+        font-size:1.5rem;
+        font-style:italic;
+    }
+    .desc-html .row-6 .bloco1{
+        background: url(/arquivos/desc-vaporizador-wapore-fast-portatil-16.png) no-repeat;
+        background-size: 100% auto;
+        min-height: 400px;
+        position: relative;
+    }
+    .desc-html .row-6 .bloco1 strong{
+        color: #fff;
+        text-shadow:3px 3px 3px black;
+        position: absolute;
+        margin: 10%;
+        bottom: 0;
+        vertical-align: bottom;
+    }
+    .desc-html .row-6 .bloco2{
+        background: #262626;
+        margin:auto;
+        padding:2% 0;
+        text-align:end;
+    }
+    .desc-html .row-6 .bloco2_1{
+        padding:1%7%;
+        padding-top:6%;
+        margin:auto;
+        color:#fff;	
+        text-align:center;
+    }
+    .desc-html .row-6 .bloco2 img{
+        max-width:64%;
+    }
+    .desc-html .row-6 .bloco2 strong{
+        font-size:2.0rem;
+    }
+    .desc-html .row-7 .bloco1 img{
+        max-height:470px;
+    }
+    .desc-html .row-7 .bloco2 strong {
+        font-size: 1.6rem;
+    }
+    .desc-html .row-7 .bloco1{
+        padding:3%;
+        margin:auto;
+        text-align:center;
+    }
+    .desc-html .row-7 .bloco2{
+        margin:auto;
+        padding:5%;
+        text-align:center;
+    }
+    .desc-html .row-7 .bloco2_1{
+        font-size:1.5rem;
+    }
+    .desc-html .row-7 .bloco2_2 span {
+        font-size: 1.7rem;
+        color: #333;
+    }
+    .desc-html .row-7 .bloco2_2 strong {
+        font-size: 2.2rem;
+    }
+    
+    </style>
+    <div class="col-xs-12 video">
+    <iframe src="https://www.youtube.com/embed/9yYCh7RxrOQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
+    <div class="col-xs-12 desc-html">
+    
+    <div class="row row-1">
+    <div class="col-xs-12 col-md-7 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-01.png" />
+    </div>
+    
+    <div class="col-xs-12 col-md-5 bloco2">
+    <div class="bloco2_1">
+    <span>Vaporizador portátil</span><br />
+    <strong>WAP WAPORE FAST</strong></div>
+    <br>
+    <div class="bloco2_2">
+    Ajuda a desamassar e higienizar em poucos minutos. Remova aquele amassadinho com praticidade!
+    </div></div></div>
+    
+    <div class="row row-2">
+    <div class="col-xs-12 col-md-6 bloco1">
+    <div class="col-xs-12 col-md-12 bloco1_1"><strong>Poderoso vapor</strong></div>
+    
+    <div class="row">
+    <div class="col-xs-12 col-md-5 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-02.png" /><br><br>
+    </div>
+    
+    <div class="col-xs-12 col-md-7 bloco2">
+    Seu reservatório de capacidade de até 200 ml de água possui aquecimento rápido em até 25 segundos!
+    </div></div>
+    
+    <div class="row">
+    <div class="col-xs-12 col-md-5 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-03.png" /><br><br>
+    </div>
+    
+    <div class="col-xs-12 col-md-7 bloco2">
+    Seu poderoso vapor de 160ºC é capaz de higienizar seus tecidos de roupas, estofados, cama, mesa e banho.
+    </div></div>
+    
+    <div class="row">
+    <div class="col-xs-12 col-md-5 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-04.png" /><br><br>
+    </div>
+    
+    <div class="col-xs-12 col-md-7 bloco2">
+    Este produto deve ser utilizado na <strong>VERTICAL</strong>.
+    </div></div></div>
+    
+    <div class="col-xs-12 col-md-6 bloco2">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-05.png" />
+    </div></div>
+    
+    <div class="row row-3">
+    <div class="col-xs-12 col-md-5 bloco1">
+    <div class="bloco1_1">
+    <strong>Higienize suas roupas com facilidade</strong><br/>
+    Auxilia a desamassar suas roupas ainda no cabide e as deixa super-higienizadas e prontas na hora que precisar. O WAP WAPORE FAST é indicado para tirar aquele amassadinho de última hora, mas ele não substitui o ferro de passar!
+    </div><br/>
+    
+    <div class="bloco1_2">
+    <strong>Alta performance</strong><br/>
+    1000 W de potência aliada a alta performance e baixo consumo de energia.
+    </div><br/>
+    
+    <div class="bloco1_3">
+    <strong>Higienize seus utensílios</strong><br/>
+    Com o seu super vapor, você pode higienizar suas roupas e tecidos. Proporcionando mais facilidade e autonomia para cuidar da sua saúde e da sua família.
+    </div>
+    </div>
+    
+    <div class="col-xs-12 col-md-7 bloco2">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-06.png" />
+    </div></div>
+    
+    <div class="row row-4">
+    <div class="col-xs-12 col-md-4 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-07.png" />
+    </div>
+    
+    <div class="col-xs-12 col-md-5 bloco2">
+    <div class="bloco2_1">
+    <strong>Modelo portátil</strong></div>
+    <br/>
+    <div class="bloco2_2">
+    <span>Com design compacto, é o modelo ideal para quem precisa viajar.<br><br>
+    O <strong>WAP WAPORE FAST</strong> cabe dentro da bolsa, e pode ser utilizado em qualquer lugar e a qualquer momento.</span>
+    </div></div>
+    
+    <div class="col-xs-12 col-md-3 bloco3">
+    
+    <div class="row">
+    <div class="col-xs-3 col-md-12 bloco3_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-08.png" />
+    </div>
+    
+    <div class="col-xs-3 col-md-12 bloco3_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-09.png" />
+    </div>
+    
+    <div class="col-xs-3 col-md-12 bloco3_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-10.png" />
+    </div>
+    
+    <div class="col-xs-3 col-md-12 bloco3_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-11.png" />
+    </div></div></div></div>
+    
+    <div class="row row-5">
+    <div class="col-xs-12 col-md-6 bloco1">
+    <strong>Acessórios<br/>
+    que facilitam<br/>
+    a higienização.</strong>
+    </div>
+    
+    <div class="col-xs-12 col-md-6 bloco2">
+    
+    <div class="row">
+    <div class="col-xs-6 col-md-5 bloco2_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-13.png" />
+    </div>
+    
+    <div class="col-xs-6 col-md-7 bloco2_2">
+    COPO<br /><strong>MEDIDOR</strong>
+    </div></div>
+    
+    <div class="row">
+    <div class="col-xs-6 col-md-5 bloco2_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-14.png" />
+    </div>
+    
+    <div class="col-xs-6 col-md-7 bloco2_2">
+    ESCOVA PARA<br /><strong>TECIDOS DELICADOS<br />E REMOÇÃO<br />DE PELOS</strong>
+    </div></div>
+    
+    <div class="row">
+    <div class="col-xs-6 col-md-5 bloco2_1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-15.png" />
+    </div>
+    
+    <div class="col-xs-6 col-md-7 bloco2_2">
+    RESERVATÓRIO<br />REMOVÍVEL DE<br /><strong>200 ml</strong>
+    </div></div></div></div>
+    
+    <div class="row row-6">
+    <div class="col-xs-12 col-md-7 bloco1">
+    <strong>Curta seu pet sem<br />medo dos pelos!</strong>
+    </div>
+    
+    <div class="col-xs-12 col-md-5 bloco2">
+    <div class="bloco2_1">
+    <strong>Remoção de pelos de pets</strong><br/><br/>
+    O equipamento conta com escova exclusiva desenvolvida especificamente para auxiliar na remoção de pelos dos pets presente nas roupas e tecidos.<br /><br />
+    </div>
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-17.png" />
+    </div></div>
+    
+    <div class="row row-7">
+    <div class="col-xs-12 col-md-6 bloco1">
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-18.png" />
+    </div>
+    
+    <div class="col-xs-12 col-md-6 bloco2">
+    <div class="bloco2_1">
+    Auxilie a desamassar e higienize <br/>
+    suas roupas e tecidos com o<br/><br/>
+    </div>
+    
+    <div class="bloco2_2">
+    <span>VAPORIZADOR PORTÁTIL</span><br />
+    <strong>WAP WAPORE FAST</strong>
+    <br /><br />
+    </div>
+    <img src="/arquivos/desc-vaporizador-wapore-fast-portatil-19.png" />
+    </div>
+    </div>
+    
+    
+    </div>
